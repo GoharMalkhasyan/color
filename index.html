@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color</title>	
+	<meta charset="utf-8">
+	<style type="text/css">
+		#div {
+			width: 800px;
+			height: 200px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between; 
+		}
+		.div1 {
+			border: 1px solid gray;
+			width: 25%;
+			height: 200px;
+			border-radius: 50%;		
+		}		
+	</style>
+</head>
+<body>
+	<center>
+		<p id="text"></p>
+		<div id="div">
+			<div class="div1" onclick="color(0)"></div>
+			<div class="div1" onclick="color(1)"></div>
+			<div class="div1" onclick="color(2)"></div>
+		</div>
+	</center>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
